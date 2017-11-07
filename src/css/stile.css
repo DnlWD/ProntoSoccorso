@@ -1,0 +1,67 @@
+html{
+    font-family: 'Lato', sans-serif;
+    background-color: #E7FDFF;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #17CECE;
+    height: 10vh;
+    display: flex;
+    padding: 4vh;
+}
+
+section{
+    width: 80vw;
+    margin: 0 auto;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+}
+
+h2 {
+    padding: 4vh;
+}
+
+.name {
+    padding: 4vh;
+    font-size: 8pt;
+    text-align: right;
+    width: 17vw
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items:center
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+}
+
+.base {
+    background-color: #17CECE;
+    width: 10px;
+    height: 80px;
+}
+
+.graph {
+    background-color: #19FF75;
+}
+
+.value {
+    background-color: #19FF75;
+    height: 30px;
+    margin-left: -5px;
+    padding: 5px;
+}
+
+#mapid { 
+    height: 80vh; 
+    margin-top: 5vh;
+}
